@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>계정 및 데이터 삭제 요청 · 제트스트림: 항공사 타이쿤</title>
+<style>
+  :root{
+    --bg:#0d1520; --panel:#131f2e; --line:#22344a;
+    --ink:#e8f0fa; --muted:#9db0c7; --accent:#6fb3f0; --amber:#f2b441;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.75 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    padding:0 20px 80px;
+  }
+  .wrap{max-width:720px;margin:0 auto}
+  header{padding:56px 0 32px;border-bottom:1px solid var(--line);margin-bottom:36px}
+  .app{font-size:13px;letter-spacing:.14em;color:var(--accent);text-transform:uppercase;margin-bottom:14px}
+  h1{font-size:29px;line-height:1.3;margin:0 0 12px;font-weight:700}
+  .meta{color:var(--muted);font-size:14px;margin:0}
+  h2{font-size:19px;margin:40px 0 14px;font-weight:700;padding-left:12px;border-left:3px solid var(--accent)}
+  p{margin:0 0 14px}
+  ol,ul{margin:0 0 16px;padding-left:22px}
+  li{margin-bottom:10px}
+  strong{color:#fff}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:0 0 20px}
+  .card h3{margin:0 0 10px;font-size:16px;color:var(--amber)}
+  .card p:last-child{margin-bottom:0}
+  table{width:100%;border-collapse:collapse;margin:0 0 18px;font-size:15px;display:block;overflow-x:auto}
+  th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:600;white-space:nowrap}
+  a{color:var(--accent)}
+  code{background:#0a121c;border:1px solid var(--line);border-radius:5px;padding:2px 6px;font-size:14px}
+  footer{margin-top:52px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="app">제트스트림: 항공사 타이쿤 · SeolaSoft</div>
+  <h1>계정 및 데이터 삭제 요청</h1>
+  <p class="meta">앱: 제트스트림: 항공사 타이쿤 (<code>com.seolasoft.jetstream</code>) · 개발사: 설아소프트(SeolaSoft)</p>
+</header>
+
+<p><strong>제트스트림: 항공사 타이쿤</strong>은 회원가입이 없는 게임입니다. 이름·이메일·전화번호를 수집하지 않으며, 게임 진행을 잇기 위해 자동으로 발급되는 <strong>익명 식별자</strong>와 <strong>게임 저장 데이터</strong>만 서버에 보관합니다. 아래 방법으로 이 데이터의 삭제를 요청하실 수 있습니다.</p>
+
+<h2>삭제 요청 방법</h2>
+
+<div class="card">
+  <h3>방법 1 — 앱을 삭제 (기기 데이터)</h3>
+  <p>기기에서 앱을 삭제하면 기기에 저장된 게임 데이터가 함께 지워집니다. 서버에 보관된 클라우드 저장본까지 지우려면 아래 방법 2를 이용해 주세요.</p>
+</div>
+
+<div class="card">
+  <h3>방법 2 — 이메일로 서버 데이터 삭제 요청</h3>
+  <p>아래 주소로 메일을 보내 주시면 서버에 보관된 데이터를 삭제해 드립니다.</p>
+  <p style="margin-top:14px">
+    받는 사람: <a href="mailto:seolasoft@gmail.com?subject=%5B%EC%A0%9C%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%A6%BC%5D%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD"><strong>seolasoft@gmail.com</strong></a><br>
+    제목: <code>[제트스트림] 데이터 삭제 요청</code>
+  </p>
+</div>
+
+<p>계정이 없으므로 이메일 주소만으로는 저장본을 특정할 수 없습니다. 다음 정보를 함께 적어 주시면 대상을 정확히 찾을 수 있습니다.</p>
+<ol>
+  <li>게임 화면에 표시되는 <strong>회사 정보</strong> — 허브 도시, 현재 연도와 분기, 보유 자본, 보유 노선 수</li>
+  <li>마지막으로 플레이한 대략적인 날짜</li>
+  <li>(알고 계신 경우) 게임 내에서 확인한 <strong>익명 식별자(UID)</strong></li>
+</ol>
+
+<h2>삭제되는 데이터와 처리 기간</h2>
+<table>
+  <tr><th>데이터</th><th>처리</th><th>기간</th></tr>
+  <tr>
+    <td>게임 저장 데이터<br>(자본, 노선, 보유 기재, 진행 상황)</td>
+    <td><strong>완전 삭제</strong></td>
+    <td>요청 확인 후 30일 이내</td>
+  </tr>
+  <tr>
+    <td>익명 인증 계정(UID)</td>
+    <td><strong>완전 삭제</strong></td>
+    <td>요청 확인 후 30일 이내</td>
+  </tr>
+  <tr>
+    <td>사용 통계(Google Analytics)</td>
+    <td>개인을 식별하지 않는 형태로 집계되어 보관되며, Google Analytics의 기본 보관 정책(최대 14개월)에 따라 자동 만료됩니다. 특정 개인의 기록으로 분리해 삭제할 수 없습니다.</td>
+    <td>최대 14개월 후 자동 만료</td>
+  </tr>
+  <tr>
+    <td>광고 식별자(AAID)</td>
+    <td>당사 서버에 보관하지 않습니다. 기기 설정에서 언제든 <em>설정 → Google → 광고</em>를 통해 직접 재설정하거나 삭제할 수 있습니다.</td>
+    <td>즉시(이용자 직접 수행)</td>
+  </tr>
+</table>
+
+<p>처리 결과는 요청하신 메일 주소로 회신드립니다. 삭제된 게임 저장 데이터는 복구할 수 없습니다.</p>
+
+<footer>
+  <p>© 2026 SeolaSoft · <a href="./ko.html">개인정보처리방침</a> · <a href="./index.html">English</a></p>
+</footer>
+
+</div>
+</body>
+</html>
