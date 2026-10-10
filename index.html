@@ -42,90 +42,121 @@
 <header>
   <div class="app">Jetstream: Airline Tycoon</div>
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective: August 24, 2026 · Last updated: August 24, 2026</p>
-  <p class="meta lang"><a href="./ko.html">한국어</a></p>
+  <p class="meta">Effective: October 10, 2026 · Previous version effective August 24, 2026</p>
+  <p class="meta lang"><a href="./ko.html">한국어</a> · <a href="./delete.html#en">Data deletion</a></p>
 </header>
 
-<p>SeolaSoft ("we", "us") operates the mobile game <strong>Jetstream: Airline Tycoon</strong> (package <code>com.seolasoft.jetstream</code>, the "Game"). This policy explains what information the Game processes, why, and how you can control it.</p>
+<p>SeolaSoft ("we", "us") operates the mobile game <strong>Jetstream: Airline Tycoon</strong> (package <code>com.seolasoft.jetstream</code>, the "Game"). This policy explains what information the Game processes and why, how long we keep it, and how you can control it.</p>
 
 <div class="card">
   <h3>Summary</h3>
-  <p>The Game has <strong>no sign-up and does not collect your name, email address, phone number, postal address, contacts, photos, or precise location.</strong> We process only an anonymous identifier and your game save so progress can follow you across devices, plus analytics and advertising identifiers used to improve the Game and serve ads.</p>
+  <p>The Game has <strong>no sign-up and does not collect your name, email address, phone number, postal address, contacts, photos, or precise location.</strong> We process only an anonymous identifier and your game save so progress can be backed up and transferred, plus analytics and advertising identifiers used to improve the Game and serve ads. You can <strong>delete your cloud data inside the Game</strong> (Settings → Device Transfer &amp; Cloud Backup → Delete Cloud Data).</p>
 </div>
 
-<h2>1. Information we process</h2>
-
+<h2>1. What we process, why, and for how long</h2>
 <table>
-  <tr><th>Category</th><th>What it is</th><th>Why</th></tr>
+  <tr><th>Data</th><th>How it's collected</th><th>Purpose</th><th>Retention</th></tr>
   <tr>
-    <td>Anonymous account ID</td>
-    <td>A random string (UID) issued automatically by Firebase Anonymous Authentication. It is not linked to your real name or email.</td>
-    <td>To restore your saved progress after reinstalling or switching devices</td>
+    <td>Anonymous account ID (UID)</td>
+    <td>Issued automatically by Firebase Anonymous Auth on first launch. Not linked to your name or email.</td>
+    <td>Cloud backup and restore, device transfer, support (shown in-game as "Support ID")</td>
+    <td>Until you delete your cloud data or the service ends</td>
   </tr>
   <tr>
-    <td>Game save data</td>
-    <td>Your in-game state: cash, routes opened, aircraft owned, current year and quarter, era goal progress</td>
-    <td>Cloud save and restore</td>
+    <td>Game save</td>
+    <td>Saved automatically while you play (cash, routes, fleet, year/quarter, staff cards, miles, and other game state)</td>
+    <td>Cloud backup and restore</td>
+    <td>Same as above</td>
   </tr>
   <tr>
-    <td>Usage analytics</td>
-    <td>In-game events (quarter settlement, route opening, ad views, etc.) and device information (device model, OS version, country/region, app version, language)</td>
-    <td>To improve game balance and usability, and to detect errors</td>
+    <td>Transfer code and a copy of the save at that time</td>
+    <td>When you tap "Create Transfer Code"</td>
+    <td>Moving your progress to another device</td>
+    <td>Deleted as soon as the code is used. Unused codes stop working after 7 days and are deleted when you create a new code or delete your cloud data</td>
   </tr>
   <tr>
-    <td>Advertising identifier</td>
-    <td>Android Advertising ID (AAID) and ad impression/click records</td>
-    <td>Ad delivery, frequency capping, performance measurement, fraud prevention</td>
+    <td>App usage and device information</td>
+    <td>Collected automatically by Firebase Analytics (app instance ID, in-game events, device model, OS version, country, app version, language)</td>
+    <td>Usage statistics, balancing and usability improvements, troubleshooting</td>
+    <td>Up to 14 months per Google Analytics retention settings</td>
+  </tr>
+  <tr>
+    <td>Advertising ID (AAID), ad impressions/clicks, IP address</td>
+    <td>Collected automatically by Google AdMob when ads are requested</td>
+    <td>Serving ads, frequency capping, measurement, fraud prevention, and (where permitted) personalized ads</td>
+    <td>Not stored on our servers; governed by Google's policies</td>
+  </tr>
+  <tr>
+    <td>Privacy consent choices</td>
+    <td>Stored on your device when you answer the consent message (EEA/UK/Switzerland and some US states)</td>
+    <td>Recording and applying your choices</td>
+    <td>On your device until you change them or uninstall</td>
+  </tr>
+  <tr>
+    <td>Your email address and message, if you contact us</td>
+    <td>When you email us</td>
+    <td>Handling your request</td>
+    <td>One year after the request is resolved</td>
   </tr>
 </table>
+<p>The Game <strong>does not collect</strong>: name, date of birth, email address (unless you contact us), phone number, postal address, payment card details, contacts, call or SMS logs, photos or videos, microphone or camera data, precise (GPS) location, or a list of files on your device.</p>
 
-<p>The Game <strong>does not collect</strong>: name, date of birth, email address, phone number, postal address, payment card details, contacts, call or SMS logs, photos or videos, microphone or camera data, precise (GPS) location, or a list of files on your device.</p>
+<h2>2. Sharing</h2>
+<p>We <strong>do not sell your personal information for money and do not provide it to third parties</strong> other than the service providers below, who process it on our behalf to run the Game.</p>
 
-<h2>2. How we use it</h2>
-<p>We use the information only for the purposes listed above. We <strong>do not sell your information</strong>, and we do not share it with anyone other than the service providers named in Section 3.</p>
-<p>Game saves are written only to an area scoped to your anonymous identifier, and server security rules prevent other users from reading or modifying it. All transmission is encrypted (HTTPS/TLS).</p>
-
-<h2>3. Third-party services</h2>
-<p>The Game uses the following external services, each of which processes data under its own policy:</p>
+<h2>3. Service providers</h2>
 <ul>
-  <li><strong>Google Firebase</strong> (Anonymous Authentication, Cloud Firestore, Analytics, Remote Config) — account-free save sync, usage analytics, remote configuration.
-    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy &amp; Security</a>,
-    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
-  <li><strong>Google AdMob</strong> — rewarded and interstitial advertising.
-    <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">How AdMob handles data</a></li>
+  <li><strong>Google LLC — Firebase</strong> (Anonymous Auth, Cloud Firestore, Analytics, Remote Config): account-free save backup, usage statistics, remote configuration.
+    <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy</a></li>
+  <li><strong>Google LLC — AdMob</strong> and User Messaging Platform: rewarded and interstitial ads, ad measurement, consent management.
+    <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses data from partner apps</a></li>
 </ul>
-<p>Game saves are stored in Google Cloud's Asia Pacific (Seoul, <code>asia-northeast3</code>) region. Analytics and advertising data may be processed on servers in countries where Google operates.</p>
 
-<h2>4. Advertising and personalization</h2>
-<p>The Game is free and supported by advertising. Ads consist of <strong>rewarded ads</strong>, which you choose to watch, and <strong>interstitial ads</strong>, shown at natural transition points such as quarter settlement.</p>
-<p>You can <strong>reset your advertising ID</strong> or <strong>opt out of ad personalization</strong> at any time in <em>Settings → Google → Ads</em> on your device. After opting out you will still see ads, but they will not be personalized to your interests.</p>
+<h2>4. International transfers</h2>
+<p>Game saves are stored in Google Cloud's Seoul region (<code>asia-northeast3</code>, Republic of Korea). Authentication, analytics, and advertising data may be processed in the United States and other countries where Google operates, transmitted over encrypted (TLS) connections whenever you use the Game. Transfers out of the EEA, UK, and Switzerland rely on the EU Standard Contractual Clauses and the EU-U.S. Data Privacy Framework adopted by Google.</p>
 
-<h2>5. Retention and deletion</h2>
-<p>We retain your game save and anonymous identifier for as long as you use the Game. To delete it:</p>
+<h2>5. Advertising and your choices</h2>
+<p>The Game is free and supported by ads: <strong>rewarded ads</strong> you choose to watch, and <strong>interstitial ads</strong> shown at natural breaks such as quarterly reports. You can reset or delete your advertising ID, or opt out of personalized ads, at any time in <em>device Settings → Google → Ads</em>. In regions where it applies, you can also change your choices in the Game under <em>Settings → Ad Privacy Options</em>. Ads still appear after opting out but are not personalized. The Game itself does not use cookies.</p>
+
+<h2>6. Deletion</h2>
 <ul>
-  <li><strong>On your device</strong> — uninstalling the app removes the game data stored locally.</li>
-  <li><strong>From the cloud</strong> — email us at the address in Section 7 and we will permanently delete the save data associated with your anonymous identifier from our servers <strong>within 30 days</strong>. Including details visible in your game helps us identify the right record.</li>
+  <li><strong>In the Game (immediate)</strong> — Settings → <em>Device Transfer &amp; Cloud Backup</em> → <em>Delete Cloud Data</em> deletes your server-side save, any unused transfer code, and your anonymous account. Progress on the device remains; reopening the app starts a fresh backup under a new anonymous account.</li>
+  <li><strong>On your device</strong> — uninstalling the app removes data stored on the device.</li>
+  <li><strong>By email</strong> — send your in-game Support ID to the address below; we will respond within 10 days and complete deletion within 30 days.</li>
 </ul>
-<p>See the <a href="./delete.html">Account &amp; Data Deletion</a> page for step-by-step instructions.</p>
-<p>Analytics data is handled under Google Analytics' default retention policy and is aggregated in a form that does not identify individuals.</p>
+<p>Deleted data is erased from the database and cannot be recovered. See <a href="./delete.html#en">Data deletion</a> for step-by-step instructions.</p>
 
-<h2>6. Children's privacy</h2>
-<p>The Game is not directed to children. We do not knowingly collect personal information from children under 13 (COPPA) or under 14 (Republic of Korea). If we learn that we have collected such information, we will delete it without delay.</p>
+<h2>7. Security</h2>
+<ul>
+  <li>All traffic is encrypted in transit (HTTPS/TLS).</li>
+  <li>Server security rules let each anonymous account read and write only its own save.</li>
+  <li>Transfer codes are 10-character, single-use codes generated with a cryptographic random number generator and stop working after 7 days.</li>
+  <li>Administrative access is limited to the operator, and we process only the minimum data needed.</li>
+</ul>
 
-<h2>7. Your rights and contact</h2>
-<p>You may request access to, correction of, deletion of, or restriction of processing of your information. Contact us and we will respond within the period required by applicable law.</p>
+<h2>8. Children</h2>
+<p>The Game is not directed at children. We do not knowingly collect personal information from children under 13 (under 14 in Korea, or the applicable age in your country). If we learn that we have, we will delete it promptly.</p>
+
+<h2>9. EEA, UK, and Switzerland</h2>
+<p>SeolaSoft is the controller. Our legal bases are: <strong>performance of a contract</strong> for cloud backup and device transfer you request; <strong>consent</strong> for analytics storage, ad storage, and personalized ads (collected through the consent message; until you answer, analytics and ad storage start as denied under Google Consent Mode); and our <strong>legitimate interests</strong> in security, fraud prevention, and serving non-personalized ads. You have the right to access, rectify, erase, restrict, port, and object to processing, to withdraw consent at any time (Settings → Ad Privacy Options), and to lodge a complaint with your local supervisory authority.</p>
+
+<h2>10. United States (California and other states)</h2>
+<p>In the past 12 months we collected these categories: identifiers (anonymous UID, advertising ID), internet or app activity (in-game events, ad interactions), and approximate location (country). We do not sell personal information for money. Processing with advertising partners for personalized ads may be considered "sharing" or "targeted advertising" under some state laws; you can opt out in <em>Settings → Ad Privacy Options</em> or through your device's ad settings. You may request to know, delete, or correct your information, and we will not discriminate against you for exercising these rights.</p>
+
+<h2>11. Contact</h2>
 <div class="card">
   <h3>Privacy contact</h3>
-  <p>Operator: SeolaSoft<br>
+  <p>Operator and privacy officer: SeolaSoft<br>
   Email: <a href="mailto:seolasoft@gmail.com">seolasoft@gmail.com</a></p>
 </div>
+<p>Korean residents may also contact the Personal Information Dispute Mediation Committee (1833-6972, <a href="https://www.kopico.go.kr" target="_blank" rel="noopener">kopico.go.kr</a>) or the Personal Information Infringement Report Center (118, <a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a>).</p>
 
-<h2>8. Changes to this policy</h2>
-<p>We may update this policy as the law or the Game changes. Material changes will be posted on this page with a new effective date, and changes that disadvantage users will be announced at least 7 days before they take effect.</p>
+<h2>12. Changes</h2>
+<p>We may update this policy when laws or the Game change. Updates are posted here with a new effective date; changes that reduce your rights are announced at least 7 days in advance.</p>
 
 <footer>
   <p>© 2026 SeolaSoft · Jetstream: Airline Tycoon</p>
-  <p>This game is an original work and is not affiliated with any real aircraft manufacturer or airline.</p>
+  <p>Jetstream is a work of fiction and is not affiliated with any real aircraft manufacturer or airline.</p>
 </footer>
 
 </div>
